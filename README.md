@@ -9,3 +9,9 @@ Note re build tools etc.: While I plan to use Maven in the future, for tecnhnica
 First commit of mid-2022 organisational tweak of 2015-written program not previously under version control.
 
 Ever needed to divide a small number of items (e.g. pieces of fruit of random weight) into two collections, as evenly as possible? In the case of 3 items, the answer is, of course, always to divide as “biggest vs. other two”. Divvier is a small tool to take the guesswork, or tedious comparison of the various combinations, out of the situation for larger collections. Over 5 items, there is a random component to the algorithms used (not all combinations may be sampled), however the process for 6-11 is quite reliable in identifying the best split. The process used for 12 or more items is not guarenteed to do so, though the 'turbo' button can be used to increase  reliability, at the expense of speed - it cycles between 1x, 10x and 100x the default number of times that the processing algorithm loops for collections of >11. 
+
+---------------
+
+To do:
+
+- Belated thought: explore whether concurrency could be applied to the '12plus' item proceing method
